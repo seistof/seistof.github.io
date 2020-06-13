@@ -1,0 +1,22 @@
+{
+  "name": "seistof.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seistof/seistof.github.io.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "seistof <seistof@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seistof/seistof.github.io/issues"
+  },
+  "homepage": "https://github.com/seistof/seistof.github.io#readme"
+}
