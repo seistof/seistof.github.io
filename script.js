@@ -29,4 +29,18 @@ setInterval(() => {
   seconds.innerHTML = s;
 });
 
+const lang = navigator.language;
+let date = new Date();
+
+let dayNumber = date.getDate();
+let month = date.getMonth();
+let dayName = date.toLocaleString(lang, {weekday: 'long'});
+let monthName = date.toLocaleString(lang, {month: 'long'});
+let year = date.getFullYear();
+
+document.querySelector('#monthName').textContent = monthName;
+document.querySelector('#dayName').textContent = dayName;
+document.querySelector('#dayNumber').textContent = dayNumber;
+document.querySelector('#year').textContent = year;
+
 

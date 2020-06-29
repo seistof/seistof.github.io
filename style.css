@@ -106,6 +106,58 @@ body {
     padding-top: 10px;
 }
 
+.calendar-container {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+}
+
+.calendar {
+    position: relative;
+    width: 200px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+.calendar > p {
+    margin: 0;
+}
+
+.calendar #monthName {
+    position: relative;
+    padding: 5px 10px;
+    background: #ff6331;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.calendar #dayName {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.calendar #dayNumber {
+    line-height: 1em;
+    font-size: 80px;
+    font-weight: 700;
+    color: #333;
+}
+
+.calendar #year {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #999999;
+}
+
 a {
     position: relative;
     display: inline-block;
