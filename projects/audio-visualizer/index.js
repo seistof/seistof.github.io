@@ -2,7 +2,6 @@ const audio = document.getElementById('audio');
 const logo = document.getElementById('circle').style;
 let title = document.getElementById('status');
 let dots = document.querySelectorAll('.dot');
-
 let context, analyser, source, array, dotsRun;
 
 window.onclick = function() {
