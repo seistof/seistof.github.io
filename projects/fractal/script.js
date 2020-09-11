@@ -12,7 +12,7 @@ const timeout = () => new Promise(r => {
 });
 
 async function draw(
-    startX, startY, len, angle, branchWidth, bodyColor, leafsColor) {
+  startX, startY, len, angle, branchWidth, bodyColor, leafsColor) {
   ctx.beginPath();
   ctx.save();
   ctx.strokeStyle = bodyColor;
@@ -35,7 +35,6 @@ async function draw(
   ctx.restore();
 }
 
-draw(canvas.width / 2, canvas.height - 80, 150, 0, 2, 'rgb(100,50,250)', 'green')
-    .then(() => console.log(`Done`));
+draw(canvas.width / 2, canvas.height - 80, 150, 0, 2, 'rgb(100,50,250)', 'green').then(() => console.log(`Done`));
 
 
