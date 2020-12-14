@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ya task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="main"></div>
+<div class="control">
+    <div class="buttons">
+        <button class="buttons__start">Start</button>
+        <button class="buttons_stop" style="display: none">Pause</button>
+        <button class="buttons_reset">New</button>
+        <button class="buttons_black">Black</button>
+    </div>
+    <div class="setup">
+        <label class="setup__height">Height:
+            <input type="number" class="setup__height-value" min="1">
+        </label>
+        <label class="setup__width">Width:
+            <input type="number" class="setup__width-value" min="1">
+        </label>
+        <label class="setup__refresh">Refresh (per/s):
+            <input type="number" class="setup__refresh-value" value="3" min="1">
+        </label>
+    </div>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
